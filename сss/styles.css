@@ -519,14 +519,14 @@ body {
 }
 
 .portfolio-list .link {
-  display: block;
+  display: inline-block;
 }
 
 .portfolio .img {
   display: block;
 }
 
-.portfolio-thumb:hover::before {
+.portfolio-list-item:hover .portfolio-thumb::before {
   opacity: 1;
 }
 
